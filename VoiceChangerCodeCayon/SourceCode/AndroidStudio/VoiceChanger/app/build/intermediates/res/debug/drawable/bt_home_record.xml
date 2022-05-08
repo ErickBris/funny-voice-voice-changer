@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/record_active" android:state_focused="true"/>
+    <item android:drawable="@drawable/record_active" android:state_pressed="true"/>
+    <item android:drawable="@drawable/record_normal"/>
+
+</selector><!-- From: file:/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/app/src/main/res/drawable/bt_home_record.xml -->

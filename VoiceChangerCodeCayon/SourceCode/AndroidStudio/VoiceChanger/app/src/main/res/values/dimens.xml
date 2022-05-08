@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+        
+    <dimen name="widget_margin">8dp</dimen>
+   	<dimen name="widget_margin_top">4dp</dimen>
+   	<dimen name="recycle_width_devider">5dp</dimen>
+     
+	<dimen name="row_height_voice">72dp</dimen>
+    <dimen name="padding_top_dialog">22dp</dimen>
+    <dimen name="row_height_normal">64dp</dimen>
+    <dimen name="row_height_small">50dp</dimen>
+    <dimen name="row_height_track">80dp</dimen>
+    <dimen name="row_height_medium">88dp</dimen>
+    <dimen name="float_action_button_big_size">56dp</dimen>
+    <dimen name="float_action_button_small_size">40dp</dimen>
+    
+    <dimen name="height_albums">188dp</dimen>
+    <dimen name="height_videos">128dp</dimen>
+    <dimen name="height_img_videos">78dp</dimen>
+    <dimen name="width_albums_videos">140dp</dimen>
+    
+    <dimen name="height_img_track">200dp</dimen>
+    
+    <dimen name="height_layout_img_album">130dp</dimen>
+    <dimen name="height_img_album">120dp</dimen>
+    
+    <dimen name="height_layout_img_track">220dp</dimen>
+    <dimen name="video_height_potrait_mode">220dp</dimen>
+    
+    <dimen name="dialog_margin">10sp</dimen>
+    <dimen name="small_margin">5sp</dimen>
+    <dimen name="top_margin">8sp</dimen>
+    <dimen name="devider">1dp</dimen>
+
+    <dimen name="axis_radius">130dp</dimen>
+    <dimen name="layout_radius">135dp</dimen>
+
+    <dimen name="text_size_logo">30sp</dimen>
+    <dimen name="text_size_header">26sp</dimen>
+    <dimen name="height_ads">50sp</dimen>
+    <dimen name="height_img_small_track">50sp</dimen>
+    <dimen name="height_edit_text">48dp</dimen>
+    <dimen name="height_tabs">48dp</dimen>
+    <dimen name="height_indicator_tabs">4dp</dimen>
+    <dimen name="height_small_rating">20sp</dimen>
+    <dimen name="height_child_listen_music">70dp</dimen>
+
+    <dimen name="text_margin_top">4sp</dimen>
+    <dimen name="shadow_height">4sp</dimen>
+    <dimen name="height_process_bar">30sp</dimen>
+    <dimen name="stroke_process">3sp</dimen>
+    <dimen name="height_pager">15sp</dimen>
+
+    
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">2dp</dimen>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <bool name="default_line_indicator_centered">true</bool>
+
+</resources>

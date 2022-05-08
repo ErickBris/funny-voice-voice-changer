@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppCompatLight" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionBarOverflow</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="drawerArrowStyle">@style/MyActionBarDrawerArrowStyle</item>
+        <item name="android:textColor">@color/black_text</item>
+
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryDark">@color/main_color_dark</item>
+        <item name="colorAccent">@color/main_color_accent</item>
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+        <item name="deviderColor">@color/black_deviders</item>
+    </style>
+    
+     <style name="AppCompatDark" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionBarOverflow</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="drawerArrowStyle">@style/MyActionBarDrawerArrowStyle</item>
+        <item name="android:textColor">@color/white</item>
+
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryDark">@color/main_color_dark</item>
+        <item name="colorAccent">@color/main_color_accent</item>
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+        <item name="deviderColor">@color/black_deviders</item>
+    </style>
+
+    <style name="AppCompatNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/black_text</item>
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryDark">@color/main_color_dark</item>
+        <item name="colorAccent">@color/main_color_accent</item>
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+        <item name="deviderColor">@color/black_deviders</item>
+    </style>
+    
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">?attr/colorPrimary</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+    </style>
+
+
+    <style name="MyActionBarDrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="SwitchTextAppearance" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

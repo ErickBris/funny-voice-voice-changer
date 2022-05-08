@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpbStyle" format="reference" />
+        <attr name="cpb_color" format="color" />
+        <attr name="cpb_colors" format="reference" />
+        <attr name="cpb_stroke_width" format="dimension" />
+        <attr name="cpb_min_sweep_angle" format="integer" />
+        <attr name="cpb_max_sweep_angle" format="integer" />
+        <attr name="cpb_sweep_speed" format="float" />
+        <attr name="cpb_rotation_speed" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PxBlurringView">
+        <attr name="blurRadius" format="integer" />
+        <attr name="downsampleFactor" format="integer" />
+        <attr name="overlayColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DeviderColor">
+        <attr name="deviderColor" format="color" />
+    </declare-styleable>
+
+    <attr name="arc_origin">
+        <!-- Value same as the android:gravity -->
+        <flag name="top" value="0x30"/>
+        <flag name="bottom" value="0x50"/>
+        <flag name="left" value="0x03"/>
+        <flag name="right" value="0x05"/>
+        <flag name="center_vertical" value="0x10"/>
+        <flag name="center_horizontal" value="0x01"/>
+        <flag name="center" value="0x11"/>
+        <flag name="start" value="0x00800003"/>
+        <flag name="end" value="0x00800005"/>
+    </attr>
+
+    <declare-styleable name="arc_ArcLayout">
+        <attr name="arc_origin"/>
+        <attr name="arc_color" format="color"/>
+        <attr name="arc_radius" format="dimension"/>
+        <attr name="arc_axisRadius" format="dimension"/>
+        <attr name="arc_freeAngle" format="boolean"/>
+        <attr name="arc_reverseAngle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="arc_ArcLayout_Layout">
+        <attr name="arc_origin"/>
+        <attr name="arc_angle" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="auto_start" format="boolean"/>
+        <attr name="base_alpha" format="float"/>
+        <attr name="duration" format="integer"/>
+        <attr name="repeat_count" format="integer"/>
+        <attr name="repeat_delay" format="integer"/>
+        <attr name="repeat_mode" format="enum">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="angle" format="enum">
+            <enum name="cw_0" value="0"/>
+            <enum name="cw_90" value="90"/>
+            <enum name="cw_180" value="180"/>
+            <enum name="cw_270" value="270"/>
+        </attr>
+        <attr name="dropoff" format="float"/>
+        <attr name="fixed_width" format="dimension"/>
+        <attr name="fixed_height" format="dimension"/>
+        <attr name="intensity" format="float"/>
+        <attr name="relative_width" format="float"/>
+        <attr name="relative_height" format="float"/>
+        <attr name="shape" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+        </attr>
+        <attr name="tilt" format="float"/>
+    </declare-styleable>
+
+
+
+</resources>

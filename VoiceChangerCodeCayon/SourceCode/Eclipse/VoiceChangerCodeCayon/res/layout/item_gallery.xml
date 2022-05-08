@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height_voice"
+         >
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bt_share"
+            android:stateListAnimator="@null"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toLeftOf="@+id/btn_share"
+            android:stateListAnimator="@null"
+            android:background="@drawable/play"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:onClick="onClick" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toLeftOf="@+id/btn_play"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_name_effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/title_tone_of_voice"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_title"
+                />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="2 minutes ago"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_subhead"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

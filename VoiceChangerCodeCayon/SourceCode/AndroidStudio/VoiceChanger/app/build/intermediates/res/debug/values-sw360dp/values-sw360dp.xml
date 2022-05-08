@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/app/src/main/res/values-sw360dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="axis_radius">130dp</dimen>
+    <dimen name="height_img_track">250dp</dimen>
+    <dimen name="height_layout_img_track">270dp</dimen>
+    <dimen name="home_icon_size">74sp</dimen>
+    <dimen name="layout_radius">135dp</dimen>
+    <dimen name="nav_width">304dp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_header">32sp</dimen>
+    <dimen name="text_size_headline">24sp</dimen>
+    <dimen name="text_size_home">11dp</dimen>
+    <dimen name="text_size_logo">40sp</dimen>
+    <dimen name="text_size_subhead">16sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+</resources>

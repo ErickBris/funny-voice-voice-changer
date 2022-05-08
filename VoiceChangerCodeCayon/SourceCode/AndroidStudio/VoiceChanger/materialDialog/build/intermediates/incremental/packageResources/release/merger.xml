@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res"><file name="md_btn_selected" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_btn_selected.xml" qualifiers="" type="drawable"/><file name="md_btn_selected_dark" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_btn_selected_dark.xml" qualifiers="" type="drawable"/><file name="md_btn_selector" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_btn_selector.xml" qualifiers="" type="drawable"/><file name="md_btn_selector_dark" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_btn_selector_dark.xml" qualifiers="" type="drawable"/><file name="md_item_selected" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_item_selected.xml" qualifiers="" type="drawable"/><file name="md_item_selected_dark" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_item_selected_dark.xml" qualifiers="" type="drawable"/><file name="md_selector" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_selector.xml" qualifiers="" type="drawable"/><file name="md_selector_dark" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_selector_dark.xml" qualifiers="" type="drawable"/><file name="md_transparent" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable/md_transparent.xml" qualifiers="" type="drawable"/><file name="md_btn_selector_ripple" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable-v21/md_btn_selector_ripple.xml" qualifiers="v21" type="drawable"/><file name="md_btn_selector_ripple_dark" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable-v21/md_btn_selector_ripple_dark.xml" qualifiers="v21" type="drawable"/><file name="md_btn_shape" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/drawable-v21/md_btn_shape.xml" qualifiers="v21" type="drawable"/><file name="md_dialog" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_dialog.xml" qualifiers="" type="layout"/><file name="md_input_dialog_stub" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_input_dialog_stub.xml" qualifiers="" type="layout"/><file name="md_listitem" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_listitem.xml" qualifiers="" type="layout"/><file name="md_listitem_multichoice" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_listitem_multichoice.xml" qualifiers="" type="layout"/><file name="md_listitem_singlechoice" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_listitem_singlechoice.xml" qualifiers="" type="layout"/><file name="md_progress_dialog" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_progress_dialog.xml" qualifiers="" type="layout"/><file name="md_progress_dialog_indeterminate" path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/layout/md_progress_dialog_indeterminate.xml" qualifiers="" type="layout"/><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values/attrs.xml" qualifiers=""><attr format="reference" name="md_btn_stacked_selector"/><attr format="color" name="md_positive_color"/><attr format="reference" name="md_btn_positive_selector"/><attr format="boolean" name="md_dark_theme"/><attr format="color" name="md_divider"/><attr format="reference" name="md_icon"/><attr format="color" name="md_background_color"/><attr format="color" name="md_title_color"/><attr format="color" name="md_item_color"/><attr format="reference" name="md_btn_negative_selector"/><attr format="dimension" name="md_icon_max_size"/><attr format="reference" name="md_btn_neutral_selector"/><attr format="reference" name="md_list_selector"/><attr format="boolean" name="md_icon_limit_icon_to_default_size"/><attr format="color" name="md_neutral_color"/><attr format="color" name="md_content_color"/><attr format="color" name="md_negative_color"/><attr format="color" name="md_divider_color"/></file><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values/colors.xml" qualifiers=""><color name="md_material_blue_800">#1565C0</color><color name="md_divider_black">#10000000</color><color name="md_btn_selected">#33969696</color><color name="md_divider_white">#10FFFFFF</color><color name="md_btn_selected_dark">#40CBCBCB</color><color name="md_material_blue_600">#1E88E5</color></file><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values/dimens.xml" qualifiers=""><dimen name="md_content_textsize">18sp</dimen><dimen name="md_button_textsize">14sp</dimen><dimen name="md_listitem_textsize">18sp</dimen><dimen name="md_button_frame_vertical_padding">8dp</dimen><dimen name="md_progressdialog_paddingwithtitle">4dp</dimen><dimen name="md_button_textpadding_horizontal">1dp</dimen><dimen name="md_button_height">48dp</dimen><dimen name="md_action_corner_radius">2dp</dimen><dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen><dimen name="md_button_padding_vertical">4dp</dimen><dimen name="md_listitem_margin_left">24dp</dimen><dimen name="md_button_inset_horizontal">4dp</dimen><dimen name="md_listitem_control_margin">16dp</dimen><dimen name="md_button_padding_horizontal">8dp</dimen><dimen name="md_dialog_frame_margin">24dp</dimen><dimen name="md_listitem_height">48dp</dimen><dimen name="md_neutral_button_margin">12dp</dimen><dimen name="md_content_vertical_padding">8dp</dimen><dimen name="md_icon_max_size">32dp</dimen><dimen name="md_button_min_width">42dp</dimen><dimen name="md_button_inset_vertical">6dp</dimen><dimen name="md_icon_margin">16dp</dimen><dimen name="md_button_padding_frame_side">12dp</dimen><dimen name="md_title_frame_margin_bottom">16dp</dimen><dimen name="md_title_frame_margin_bottom_list">4dp</dimen><dimen name="md_title_textsize">20sp</dimen></file><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values/styles.xml" qualifiers=""><style name="Theme_Light_Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style><style name="MD_Dark" parent="Theme.AppCompat.Dialog">
+        <item name="md_divider">@color/md_divider_white</item>
+        <item name="md_list_selector">@drawable/md_selector_dark</item>
+        <item name="md_btn_stacked_selector">@drawable/md_selector_dark</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector_dark</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector_dark</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector_dark</item>
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="MD_ActionButtonStacked" parent="@style/MD_ActionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/md_button_padding_horizontal_internalexternal</item>
+        <item name="android:paddingStart">@dimen/md_button_padding_horizontal_internalexternal
+        </item>
+        <item name="android:paddingRight">@dimen/md_button_padding_horizontal_internalexternal
+        </item>
+        <item name="android:paddingEnd">@dimen/md_button_padding_horizontal_internalexternal</item>
+    </style><style name="MD_Light" parent="Theme_Light_Dialog">
+        <item name="md_divider">@color/md_divider_black</item>
+        <item name="md_list_selector">@drawable/md_selector</item>
+        <item name="md_btn_stacked_selector">@drawable/md_selector</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector</item>
+    </style><style name="MD_ActionButton.Text">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/md_button_textsize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">@dimen/md_button_min_width</item>
+        <item name="android:paddingLeft">@dimen/md_button_textpadding_horizontal</item>
+        <item name="android:paddingRight">@dimen/md_button_textpadding_horizontal</item>
+        <item name="android:duplicateParentState">true</item>
+    </style><style name="MD_ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/md_button_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+    </style></file><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="MD_Dark" parent="Theme.AppCompat.Dialog">
+        <item name="md_divider">@color/md_divider_white</item>
+        <item name="md_list_selector">@drawable/md_selector_dark</item>
+        <item name="md_btn_stacked_selector">@drawable/md_selector_dark</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector_dark</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector_dark</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector_dark</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><style name="MD_Light" parent="Theme.AppCompat.Light.Dialog">
+        <item name="md_divider">@color/md_divider_black</item>
+        <item name="md_list_selector">@drawable/md_selector</item>
+        <item name="md_btn_stacked_selector">@drawable/md_selector</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style></file><file path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/main/res/values-v21/styles.xml" qualifiers="v21"><style name="MD_Dark" parent="Theme.AppCompat.Dialog">
+        <item name="md_divider">@color/md_divider_white</item>
+        <item name="md_list_selector">?android:selectableItemBackground</item>
+        <item name="md_btn_stacked_selector">?android:selectableItemBackground</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector_ripple_dark</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector_ripple_dark</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector_ripple_dark</item>
+    </style><style name="MD_Light" parent="Theme.AppCompat.Light.Dialog">
+        <item name="md_divider">@color/md_divider_black</item>
+        <item name="md_list_selector">?android:selectableItemBackground</item>
+        <item name="md_btn_stacked_selector">?android:selectableItemBackground</item>
+        <item name="md_btn_positive_selector">@drawable/md_btn_selector_ripple</item>
+        <item name="md_btn_neutral_selector">@drawable/md_btn_selector_ripple</item>
+        <item name="md_btn_negative_selector">@drawable/md_btn_selector_ripple</item>
+    </style></file></source><source path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/build/generated/res/rs/release"/><source path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/materialDialog/src/release/res"/></dataSet><mergedItems/></merger>

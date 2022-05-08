@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height_voice"
+        >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bt_save"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/small_margin"
+            android:layout_toLeftOf="@+id/btn_save"
+            android:background="@drawable/play"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/tv_name_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:singleLine="true"
+            android:text="@string/title_tone_of_voice"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

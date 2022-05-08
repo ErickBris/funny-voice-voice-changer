@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <include
+        android:id="@+id/layout_blur"
+        layout="@layout/item_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </include>
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height_voice" >
+
+        <Button
+            android:id="@+id/btn_gallery_mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/bt_gallery_mic"
+            android:minHeight="1sp"
+            android:stateListAnimator="@null"
+            android:minWidth="1sp"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/title_my_record"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_header"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_voices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_ad"
+        android:layout_below="@+id/layout_header"
+        android:layout_marginBottom="@dimen/dialog_margin"
+        android:divider="@color/alpha_black"
+        android:dividerHeight="@dimen/devider"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:text="@string/info_no_record"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_subhead"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_ad"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_ads"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Data/DBAndroidStudioWS/VoiceChangerCodeCayon/app/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="axis_radius">100dp</dimen>
+    <dimen name="layout_radius">105dp</dimen>
+    <dimen name="nav_width">264dp</dimen>
+    <dimen name="text_size_body">13sp</dimen>
+    <dimen name="text_size_headline">22sp</dimen>
+    <dimen name="text_size_home">10dp</dimen>
+    <dimen name="text_size_subhead">15sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+</resources>

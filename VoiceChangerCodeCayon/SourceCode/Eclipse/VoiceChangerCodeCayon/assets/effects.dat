@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "Helium",
+	"pitch":10,
+	"rate":0,
+	"flanger":false,
+	"reverb":[]
+  },
+  {
+    "id": "2",
+    "name": "Giant",
+	"pitch":-5,
+	"rate":-30,
+	"flanger":false,
+	"reverb":[]
+	
+  },
+  {
+    "id": "3",
+    "name": "Robot",
+	"pitch":3,
+	"rate":0,
+	"flanger":true,
+	"reverb":[]
+  },
+  {
+    "id": "4",
+    "name": "Cave",
+	"pitch":0,
+	"rate":0,
+	"flanger":false,
+	"reverb":[-3.25,2000,0.8]
+  },
+  {
+    "id": "5",
+    "name": "Monster",
+	"pitch":-8,
+	"rate":0,
+	"flanger":false,
+	"reverb":[]
+  },
+  {
+    "id": "6",
+    "name": "Nervous",
+	"pitch":1,
+	"rate":50,
+	"flanger":false,
+	"reverb":[]
+  },
+  {
+    "id": "7",
+    "name": "Drunk",
+	"pitch":-5,
+	"rate":-45,
+	"flanger":false,
+	"reverb":[]
+  },
+  {
+    "id": "8",
+    "name": "Squirrel",
+	"pitch":12,
+	"rate":50,
+	"flanger":false,
+	"reverb":[]
+  },
+  {
+    "id": "9",
+    "name": "Child",
+	"pitch":6,
+	"flanger":false,
+	"rate":0,
+	"reverb":[]
+  },
+  {
+    "id": "10",
+    "name": "Death",
+	"pitch":-8,
+	"rate":0,
+	"flanger":false,
+	"reverb":[-3.25,2000,0.8]
+  },
+  {
+    "id": "11",
+    "name": "Reverse",
+	"pitch":0,
+	"rate":0,
+	"flanger":false,
+	"reverse":true,
+	"reverb":[]
+  },
+  {
+    "id": "12",
+    "name": "Grand Canyon",
+	"pitch":0,
+	"rate":-40,
+	"flanger":false,
+	"echo":true,
+	"reverb":[-3.25,2000,0.8]
+  }
+]

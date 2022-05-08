@@ -1,0 +1,20 @@
+<resources>
+
+<!--     <dimen name="text_size_subhead">16sp</dimen> -->
+<!--     <dimen name="text_size_body">14sp</dimen> -->
+<!--     <dimen name="text_size_title">20sp</dimen> -->
+<!--     <dimen name="text_size_headline">24sp</dimen> -->
+<!--     <dimen name="text_size_home">10dp</dimen> -->
+<!--     <dimen name="nav_width">256dp</dimen> -->
+    
+    <dimen name="text_size_body">13sp</dimen>
+    <dimen name="text_size_subhead">15sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">22sp</dimen>
+    <dimen name="text_size_home">10dp</dimen>
+    <dimen name="nav_width">264dp</dimen>
+
+    <dimen name="axis_radius">110dp</dimen>
+    <dimen name="layout_radius">115dp</dimen>
+    
+</resources>

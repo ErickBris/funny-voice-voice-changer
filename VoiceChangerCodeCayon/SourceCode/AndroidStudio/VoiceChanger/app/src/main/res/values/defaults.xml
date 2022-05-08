@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cpb_default_color">#fda300</color>
+
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+
+    <item name="cpb_default_sweep_speed" format="float" type="string">1</item>
+    <item name="cpb_default_rotation_speed" format="float" type="string">1</item>
+
+    <integer name="default_blur_radius">15</integer>
+    <integer name="default_downsample_factor">8</integer>
+    <color name="default_overlay_color">#AAFFFFFF</color>
+
+</resources>
